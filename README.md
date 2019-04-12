@@ -1,8 +1,7 @@
 "# vue-ckeditor5-UploadAdapter" 
-
-<template>
+"<template>
     <vue-ckeditor type="classic" v-model="work_log" :editors="editors" :uploadAdapter="uploadadapter"></vue-ckeditor>
-</template>
+</template>"
 
 import UploadAdapter from '../uploadadapter'
 
