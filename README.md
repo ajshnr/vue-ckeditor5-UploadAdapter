@@ -1,8 +1,7 @@
 "# vue-ckeditor5-UploadAdapter" 
 
-{::nomarkdown}
-<vue-ckeditor type="classic" v-model="editorData" :editors="editors" uploadAdapter="uploadadapter"></vue-ckeditor>
-{:/}
+in vue-ckeditor tag:
+ uploadAdapter="uploadadapter"
 
 import UploadAdapter from '../uploadadapter'
 
